@@ -7,7 +7,6 @@ function StartGameScreen({ onPickedNumber }) {
 
   function numberInputHandler(enteredText) {
     setEnteredNumber(enteredText);
-    console.log(enteredText);
   }
 
   function confirmInputHandler() {
